@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['garbage container', 'garbage-container']
+
+roboflow:
+  workspace: registration-mfqu6
+  project: garbage-container-detection-sam7i-sntsj
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/registration-mfqu6/garbage-container-detection-sam7i-sntsj/dataset/4

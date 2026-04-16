@@ -1,0 +1,24 @@
+{
+    "train_args": {
+        "data": "./garbage-container-detection.v4i.yolov8/data.yaml",
+        "epochs": 60,
+        "imgsz": 640,
+        "batch": 16,
+        "workers": 4,
+        "patience": 20,
+        "device": 0,
+        "project": "runs/train",
+        "name": "bin_detector_vanilla",
+        "exist_ok": true,
+        "pretrained": true,
+        "verbose": true,
+        "plots": true,
+        "save": true,
+        "cache": false
+    },
+    "timestamp": "2026-04-16 15:05:54",
+    "cuda_available": true,
+    "cuda_version": "12.1",
+    "torch_version": "2.2.0+cu121",
+    "gpu_name": "NVIDIA GeForce RTX 2070"
+}
